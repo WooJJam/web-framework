@@ -2,36 +2,38 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="framework01:war exploded" />
+      <artifact name="test-project:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f4efa9-9d42-4171-8704-a74a0e196d7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/java/exam/NewsBodyVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/java/exam/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/java/exam/NewsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/java/exam/NewsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/webapp/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../subject/jsp-mysql/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/.idea/testProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/ch03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/ch03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/test-project/src/main/java/ex01/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/test-project/src/main/java/ex01/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/test-project/src/main/java/ex01/MemberVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testProject/test-project/src/main/webapp/listMember.jsp" afterDir="false" />
+    <list default="true" id="34d92265-c549-45f7-a8db-f213cf0e8f9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/java/exam/NewsBodyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/java/exam/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/java/exam/NewsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/java/exam/NewsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/webapp/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subject/jsp-mysql/src/main/webapp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/testProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex01/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex01/MemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex01/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/listMember.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ch_01_Servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ch_01_Servlet/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +43,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -59,39 +61,40 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2V9W0pryxgfKMZL9DjPzuwtsgGs" />
+  <component name="ProjectId" id="2WNxACSJ3Vd1JEFfQs4j9HajNfO" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/woojjam/Desktop/study/backend/sping/WebFramework/Ch_01_Servlet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/woojjam/Desktop/study/backend/sping/WebFramework/testProject/test-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.10" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="framework01:war exploded">
+        <artifact name="test-project:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="4fa2c283-729f-44e8-9abe-962cb7664153" />
+        <option name="BASE_DIRECTORY_NAME" value="6714dbc2-2949-4317-b1c5-303ddf4aa662" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -99,7 +102,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63046" />
+        <option name="DEBUG_PORT" value="64014" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -164,7 +167,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="framework01:war exploded" />
+          <artifact name="test-project:war exploded" />
         </option>
       </method>
     </configuration>
@@ -172,19 +175,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8f4efa9-9d42-4171-8704-a74a0e196d7d" name="Changes" comment="" />
-      <created>1694248556634</created>
+      <changelist id="34d92265-c549-45f7-a8db-f213cf0e8f9d" name="Changes" comment="" />
+      <created>1696586693741</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694248556634</updated>
-      <workItem from="1694248557612" duration="2311000" />
-      <workItem from="1695715389450" duration="135000" />
-      <workItem from="1695717009419" duration="118000" />
-      <workItem from="1696751862699" duration="127000" />
+      <updated>1696586693741</updated>
+      <workItem from="1696586694764" duration="43000" />
+      <workItem from="1696586814361" duration="6432000" />
+      <workItem from="1696598262151" duration="3798000" />
+      <workItem from="1696672194536" duration="7725000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

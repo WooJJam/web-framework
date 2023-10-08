@@ -12,11 +12,10 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 @WebServlet(name = "webServlet", value = "/member/*")
-public class NewsController extends HttpServlet {
-    private static final long serialVersionUID = 1L;
+public class MemberController extends HttpServlet {
     MemberDAO memberDAO;
 
-    public NewsController() {
+    public MemberController() {
         memberDAO = new MemberDAO();
     }
 

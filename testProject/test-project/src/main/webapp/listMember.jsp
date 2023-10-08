@@ -1,16 +1,39 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: woojjam
-  Date: 2023/10/06
-  Time: 10:06 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.List" %>
+<%@ page import="ex01.MemberVO" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>회원정보</title>
+</head>
+<body>
+    <div align="center">
+        <h2>전체 회원 리스트</h2>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>아이디</th>
+                <th>이름</th>
+                <th>비밀번호</th>
+                <th>이메일</th>
+                <th>가입일</th>
+            </tr>
+            <%
+                request.setCharacterEncoding("utf-8");
+                @SuppressWarnings("unchecked")
+                List<MemberVO> memberList = (List<MemberVO>) request.getAttribute("memberList");
+                for (MemberVO member:memberList) {
+            %>
+                <tr>
+                    <td><%=member.getId()%></td>
+                    <td><%=member.getName()%></td>
+                    <td><%=member.getPassword()%></td>
+                    <td><%=member.getEmail()%></td>
+                    <td><%=member.getRegdate()%></td>
+                </tr>
+            <%
+                }
+            %>
+        </table>
+    </div>
+</body>
 </html>
